@@ -1,4 +1,4 @@
-# ABCE_Open_Data_Project - Simulation data example
+# ABCE Open Data Project - Simulation data example
 
 This folder contains an example of how to analyse the 'Simulation data example' dataset.
 

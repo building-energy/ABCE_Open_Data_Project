@@ -1,4 +1,4 @@
-# ABCE_Open_Data_Project
+# ABCE Open Data Project
 Data and analysis examples of the ABCE Open Data Project
 
 UNDER DEVELOPMENT

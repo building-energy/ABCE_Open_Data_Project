@@ -1,4 +1,4 @@
-# ABCE_Open_Data_Project - Internal test datasets
+# ABCE Open Data Project - Internal test datasets
 
 This folder contains details of the internal test datasets which were studied in the ABCE Open Data project.
 
