@@ -1,0 +1,50 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Indoor conditions in the atrium of the Sir Frank Gibb building"
+  "dc:description": "Air temperature and Relative humidity data from Hobo U12 sensor placed in the atrium of the Sir Frank Gibb building"
+  "dc:location": "Atrium, Sir Frank Gibb building, Loughborough University, LE113TU".
+  "dc:publisher": "XXXX"
+  "tables": [{
+    "url": "ABCE_atrium_U12_cleaned.csv",
+    "tableSchema": {
+      "columns": [
+      {
+        "name": "Time",
+	"format": "dd/mm/yy hh:mm"
+        "datatype": "integer"
+        "dc:description": "Time at which the data was recorded"
+      },
+      {
+        "name": "Temp, °C()",
+	"unit": "DEG_C",
+        "datatype": {
+          "@id": "http://qudt.org/vocab/unit/#Degree%20Celsius",
+          "rdfs:label": "Degree Celsius",
+          "base": "number"
+         }
+	"dc:description" : "This is the indoor air temperature of the atrium"
+      },
+      {
+        "name": "RH, %()",
+	"unit": "°PERCENT_RH",
+        "datatype": {
+          "@id": "http://qudt.org/vocab/unit/#Percent%20Relative%20Humidity",
+          "rdfs:label": "Percent Relative Humidity",
+          "base": "number"
+         }
+	"dc:description" : "This is the indoor relative humidity of the atrium"
+      },
+      {
+        "name": "Intensity, Lux()",
+	"unit": "LUX",
+        "datatype": {
+          "@id": "http://qudt.org/vocab/unit/#Lux",
+          "rdfs:label": "Lux",
+          "base": "number"
+         }
+	"dc:description" : "This is the indoor lighting levels of the atrium"
+      }
+      ],
+    }
+  }]
+}
