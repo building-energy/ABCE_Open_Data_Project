@@ -1,7 +1,7 @@
 # ABCE Open Data Project - Image data example
 
 
-This folder contains an example of how to reuse metadata of internal test image dataset and .
+This folder contains an example of how to reuse metadata of internal test image dataset.
  
 The dataset itself can be viewed here: https://figshare.com/s/7255e5f83ccc576059bc  (to be updated)
 
