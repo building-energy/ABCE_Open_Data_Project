@@ -1,0 +1,67 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "dc:title":"",
+  "dc:description":"",
+  "dc:creator":""
+  "tables": [{
+    "url": "calib.csv",
+    "dc:title":"",
+    "dc:description":"",
+    "tableSchema":{
+      "columns":[{
+        "titles":"",
+        "dc:description":"",
+        "":"",
+        "":""
+      }]
+    }
+  }, {
+    "url": "events.csv",
+    "dc:title":"",
+    "dc:description":"",
+    "tableSchema":{
+      "columns":[{
+        "titles":"",
+        "dc:description":"",
+        "":"",
+        "":""
+      }]
+    }
+  }, {
+    "url": "groundtruth.csv",
+    "dc:title":"",
+    "dc:description":"",
+    "tableSchema":{
+      "columns":[{
+        "titles":"",
+        "dc:description":"",
+        "":"",
+        "":""
+      }]
+    }
+  }, {
+    "url": "images.csv",
+    "dc:title":"",
+    "dc:description":"",
+    "tableSchema":{
+      "columns":[{
+        "titles":"",
+        "dc:description":"",
+        "":"",
+        "":""
+      }]
+    }
+  }, {
+    "url": "imu.csv",
+    "dc:title":"",
+    "dc:description":"",
+    "tableSchema":{
+      "columns":[{
+        "titles":"",
+        "dc:description":"",
+        "":"",
+        "":""
+      }]
+    }
+  }]
+}
