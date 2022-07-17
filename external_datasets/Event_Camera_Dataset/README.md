@@ -35,6 +35,7 @@ What we want to do is to create a metadata file to contain the necessary informa
 
 ## Tasks
 
+
 ### First stage
 
 - [ ] write metadata.json (all .txt/.csv in one .json)
