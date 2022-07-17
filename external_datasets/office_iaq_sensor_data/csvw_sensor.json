@@ -1,0 +1,64 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "@type": "Table",
+  "url": "office_livingstone_aq_1.csv",
+  "dc:title": "Indoor Air Quality data in an office building in Livingston Scotland"
+  "dc:description": "Air temperature, Relative humidity and Carbon dioxide data from Elsys ERS CO2 Lite sensor placed in the office building"
+  "dc:location": "Office building, Livingston, Scotland".
+  "dc:publisher": "joshuavasudevan"
+  "tableSchema": {
+      "@type": "Schema",
+      "columns": [
+      {
+          "@type": "Column",
+          "titles": "timestamp",
+          "dc:description": "Date and time of a sensor observation",
+          "format": "yyyy/MM/ddTHH:mm:ssXXX",
+          "datatype": "datetime"
+      },
+      {
+          "@type": "Column"
+          "titles": "temperature ['oC']",
+          "dc:description" : "Indoor air temperature recorded every 1 minute"
+          "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure": {
+                    "@id": "http://qudt.org/vocab/unit/DEG_C"
+                },
+          "schema:variableMeasured": "Air temperature",
+          "schema:duration": "1M",
+          "schema:unitText": "C",
+          "datatype": "number"
+      },
+      {
+          "@type": "Column" 
+          "titles": "humidity []",
+          "dc:description": "air relative humidity recorded every 1 minute.",
+          "<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure>": {
+                    "@id": "<http://qudt.org/vocab/unit/PERCENT_RH>"
+                },
+          "schema:variableMeasured": "Air relative humidity",
+          "schema:duration": "1M",
+          "schema:unitText": "%",
+          "datatype": "number"
+      },
+      {
+          "@type": "Column" 
+          "titles": "co2 ['ppm']",
+          "dc:description": "Carbon dioxide recorded every 1 minute.",
+          "<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure>": {
+                    "@id": "<http://qudt.org/vocab/unit/PPM>"
+                },
+          "schema:variableMeasured": "Carbon dioxide",
+          "schema:duration": "1M",
+          "schema:unitText": "PPM",
+          "datatype": "number"
+      },
+      {
+          "@type": "Column" 
+          "titles": "open_status []",
+          "dc:description": "Open status logged every 1 minute.",
+          "schema:duration": "1M",
+          "datatype": "number"
+      }
+      ],
+   }
+}
