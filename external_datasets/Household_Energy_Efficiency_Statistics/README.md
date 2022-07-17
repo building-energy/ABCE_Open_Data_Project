@@ -9,6 +9,7 @@ The original datasaet itself can be downloaded here: https://assets.publishing.s
 The files in this folder are:
 
   * This README.md file. 
+  * A Jupyter Notebook named 'data_cleaning_process.ipynb' which describes the steps involved in cleaning the     original .xls dataset and formatting it to a .csv. 
   * A Jupyter Notebook named 'example_of_data_analysis.ipynb' which contains examples, written in Python, of     how to analyse the dataset. This notebook can be viewed directly in GitHub or on NBViewer here: 'Insert
     link'
   * A file named 'X' which is an example plot created by the analysis in the Jupyter Notebook. 
