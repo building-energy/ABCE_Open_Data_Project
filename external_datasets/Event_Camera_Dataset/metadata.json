@@ -1,12 +1,11 @@
 {
-  "@context": "http://www.w3.org/ns/csvw",
-  "dc:title":"",
+  "@context": "https://rpg.ifi.uzh.ch/davis_data.html#Reinbacher17iccp",
+  "dc:title":"shapes_rotation	",
   "dc:description":"",
   "dc:creator":""
   "tables": [{
-    "url": "calib.csv",
-    "dc:title":"",
-    "dc:description":"",
+    "dc:title":"calib.txt",
+    "dc:description":"Camera parameters ",
     "tableSchema":{
       "columns":[{
         "titles":"",
@@ -16,9 +15,9 @@
       }]
     }
   }, {
-    "url": "events.csv",
-    "dc:title":"",
-    "dc:description":"",
+    "url": "events.csv", // to be deleted 
+    "dc:title":"events.csv",
+    "dc:description":" One event per line (timestamp x y polarity)",
     "tableSchema":{
       "columns":[{
         "titles":"",
@@ -28,9 +27,9 @@
       }]
     }
   }, {
-    "url": "groundtruth.csv",
+    "url": "groundtruth.csv",  // to be deleted 
     "dc:title":"",
-    "dc:description":"",
+    "dc:description":"One ground truth measurements per line (timestamp px py pz qx qy qz qw)",
     "tableSchema":{
       "columns":[{
         "titles":"",
@@ -40,9 +39,9 @@
       }]
     }
   }, {
-    "url": "images.csv",
-    "dc:title":"",
-    "dc:description":"",
+    "url": "images.csv",  // to be deleted 
+    "dc:title":"images.csv",
+    "dc:description":"One image reference per line (timestamp filename)",
     "tableSchema":{
       "columns":[{
         "titles":"",
@@ -52,7 +51,7 @@
       }]
     }
   }, {
-    "url": "imu.csv",
+    "url": "imu.csv",  // to be deleted 
     "dc:title":"",
     "dc:description":"",
     "tableSchema":{
