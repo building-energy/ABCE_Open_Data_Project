@@ -12,4 +12,4 @@ The files in this folder are:
   * A Jupyter Notebook named 'data_cleaning_process.ipynb' which describes the steps involved in cleaning the     original .xls dataset and formatting it to a .csv. 
   * A Jupyter Notebook named ['example_of_data_analysis_HEE.ipynb'](https://github.com/building-energy/ABCE_Open_Data_Project/blob/main/external_datasets/Household_Energy_Efficiency_Statistics/example_of_data_analysis_HEE.ipynb) which contains examples, written in Python, of     how to analyse the dataset. This notebook can be viewed directly in GitHub or on NBViewer here: 'Insert
     link'
-  * A file named 'bar_chart_plot.png' which is an example plot created by the analysis in the Jupyter Notebook. 
+  * A file named ['bar_chart_plot.png'](https://github.com/building-energy/ABCE_Open_Data_Project/blob/main/external_datasets/Household_Energy_Efficiency_Statistics/bar_chart_plot.png) which is an example plot created by the analysis in the Jupyter Notebook. 
