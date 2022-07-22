@@ -13,36 +13,17 @@ When downloaded, you get a file named 'epc-certificate' or 'epc-certificates' if
  - recommendations.csv: this csv file contains the recommendation information for each property selected. Each row of this csv corresponds to a different recommendation, whereby multiple property's recommendations can be found using a unique identifier.
 
 
-
-**Plots**
-The plots are available inside a ZIP file for a quick inspection.
-
 ## What we are exploring
-
-In their dataset, text files are the most flexible one since they can be loaded easily by Python or Matlab. However, the metadata is only on webpage, seperately stored from dataset if users download the dataset. This may result in inconvenience when reusing.
-
-What we want to do is to create a metadata file to contain the necessary information from webpage and to provide a demonstration about reusage of metadata we create. 
-
-## License
-
-## Reference
-
-## Tasks
-
+CSV data files are one of the most commonly used file formats for data science. In order to make the data more open (following the FAIR principles) the ABCE open-data group have identified EPC datasets as a format that woudl benefit from teh CSVW format.
+CSV files can be loaded easily by Python or Matlab. However, the metadata is stored seperately from dataset if users download the dataset from the [origin website](https://epc.opendatacommunities.org/). 
+Our task is to create a generic metadata file to contain the necessary information that fully describes the CSVW format of the EPC data, and to provide a demonstration of how data analysis can be peformed for the EPC data using the cSVW format. 
 
 ### First stage
 
 - [ ] write metadata.json (all .txt/.csv in one .json)
-      - convert txt to csv?
-      - write json
+      - Select EPC data file from [origin website](https://epc.opendatacommunities.org/)
+      - Unzip file and move to root analysis folder location
+      - co-locate the metadate.json files within the root folder (one .json for each of the certificates and recommendations CSV files)
 - [ ] code to reuse metadata
       - reuse metadata.json with dataset
       - csv validating
-- [ ] upload zipfile of dataset sample. if we can use python to read zip from url, this step can be skiped.
-      - consider about the data file format
-      - notes: python library zipfile
-
-
-### Second stage (optional)
-
-If time and resourses are allowed, the second stage could be restructing the dataset using ['sensor observation model'](https://www.w3.org/TR/vocab-ssn/#Observations-overview).

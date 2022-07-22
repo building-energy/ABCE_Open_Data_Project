@@ -1,0 +1,132 @@
+# Terms of Use
+
+## Copyright and Database Right Information
+
+The Department of Levelling Up, Housing & Communities has published this data
+in order to provide information about the energy performance of buildings.
+The publication of this data is intended to contribute to delivering
+the Government’s policies to adapt to the effects of climate change and reduce
+greenhouse gas emissions. It will provide data to facilitate improvements in
+the energy efficiency of buildings through research, improved management
+and innovation.
+
+Please note that this data contains personal data. If processing falls within
+the scope of the General Data Protection Regulation, or the Data Protection
+Act 2018, you will become a data controller and must comply with
+the data protection legislation.
+
+### Ordnance Survey and Royal Mail Copyright and Database Right Notice
+
+This data contains address data (address 1, address 2, address 3, postcode
+- see https://epc.opendatacommunities.org/docs/guidance#faq-why-sign-up)
+processed against Ordnance Survey’s AddressBase Premium product, which
+incorporates Royal Mail’s PAF® database (Address Data).
+The Department of Levelling Up, Housing & Communities has published the
+address data with the consent of Ordnance Survey and Royal Mail Group Limited;
+Ordnance Survey and Royal Mail Group Limited reserve all their respective
+copyright, database rights, trade marks and other intellectual property rights.
+Ordnance Survey and Royal Mail Group Limited permit the use of ‘address data’
+solely for specific purposes related to the energy performance of buildings
+which are as follows:
+
+ - The effective management of properties in the private or public sector
+   with a view to promoting energy efficiency (through consideration of factors
+   such as patterns of use, maintenance, repairs, improvements and upgrades
+   of building structure or energy using systems).
+ - Research to provide data, analysis and statistics intended to improve the
+   understanding of energy efficiency of buildings or to facilitate innovation
+   and improvement in use, design, materials and equipment to this end.
+ - Research into the effectiveness or impact of energy efficiency improvements
+   including those delivered through Government or other energy improvement
+   programmes.
+ - Promoting and marketing energy efficiency improvements that may be made
+   through a Government energy efficiency programme or initiative.
+ - Promotion and better understanding of the current energy efficiency of
+   buildings and potential improvement in the building sale or rental markets
+   and/or by building occupiers or users.
+ - To enable enforcement authorities to carry out enforcement duties as required
+   by the Energy Performance of Buildings Regulations (England and Wales) 2012
+   (SI 2012/3118).
+ - By local authorities in the exercise of their duties under section 91 of
+   the Building Act 1984, or an approved inspector for the purposes of the
+   inspector’s functions under Part 2 of the Building Act 1984.
+ - For the prevention or detection of crime, the apprehension or prosecution of
+   alleged offenders, any proceedings in a court or tribunal or complying with
+   an order or a court or a tribunal.
+
+In addition to the purposes set out above there are certain exceptions to
+copyright which permit you to use copyrighted material for specific and limited
+purposes. These include non-commercial research and private study, subject to
+compliance with certain conditions. Further information about these exceptions
+can be found here: https://www.gov.uk/guidance/exceptions-to-copyright.
+
+Where you publish or otherwise share address data with any other person for any
+of the purposes permitted under this copyright and database right notice, you
+must include a copy of this copyright and database right notice with the data.
+
+Any use of address data which is not specified in this notice or covered by one
+of the copyright exceptions requires an appropriate licence from Ordnance Survey.
+You can contact Ordnance Survey at PricingLicensing@os.uk.
+
+By using address data on this website you will be taken to agree to the terms
+set out in this copyright and database right notice. Failure to comply with this
+copyright and database right notice may lead to Ordnance Survey and/or
+Royal Mail Group Limited taking legal action against you.
+
+### Non-Address Data
+
+All data fields other than the address and postcode data
+(address 1, address 2, address 3, postcode) available via this website are
+licensed under the Open Government Licence v3.0.
+
+http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+
+
+## Data Protection Act 2018
+
+Address level data concerning the energy performance of buildings constitute personal 
+data for the purposes of the General Data Protection Regulation (GDPR) and Data Protection
+Act 2018 (DPA 2018). Anyone using personal data must comply with the data protection 
+legislation.
+
+The data protection principles in the GDPR require that personal data shall be:
+
+a. processed lawfully, fairly and in a transparent manner in relation to the
+ data subject
+b. collected for specified, explicit and legitimate purposes and not further 
+processed in a manner that is incompatible with those purposes; further processing 
+for archiving purposes in the public interest, scientific or historical research 
+purposes or statistical purposes shall, in accordance with Article 89(1), not be 
+considered to be incompatible with the initial purposes
+c. adequate, relevant and limited to what is necessary in relation to the purposes
+ for which they are processed
+d. accurate and, where necessary, kept up to date; every reasonable step must be 
+taken to ensure that personal data that are inaccurate, having regard to the purposes 
+for which they are processed, are erased or rectified without delay
+e. kept in a form which permits identification of data subjects for no longer 
+than is necessary for the purposes for which the personal data are processed; 
+personal data may be stored for longer periods insofar as the personal data will 
+be processed solely for archiving purposes in the public interest, scientific or
+historical research purposes or statistical purposes in accordance with Article 89(1) 
+subject to implementation of the appropriate technical and organisational measures
+required by this Regulation in order to safeguard the rights and freedoms of the 
+data subject
+f. processed in a manner that ensures appropriate security of the personal data, 
+including protection against unauthorised or unlawful processing and against accidental
+loss, destruction or damage, using appropriate technical or organisational measures
+
+The data controller for any personal data processed shall be responsible for, and 
+be able to demonstrate, compliance with the principles and data protection legislation.
+
+Please be aware that under the rights of data subjects at article 15 of the GDPR 
+an individual may make a subject access request. This entitles the data subject 
+to obtain information that includes whether his or her data are being processed,
+a description of the data, the purposes of the processing, to whom it is disclosed
+and the source of the data.
+
+Please note that the Department for Levelling Up, Housing & Communities will
+be adhering to the conditions of the data protection legislation when retaining 
+your e-mail address used for this registration.
+
+For further information on the operation of the GDPR and DPA2018 please consult the
+website of the Information Commissioner's Office. https://ico.org.uk
