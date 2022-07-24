@@ -15,7 +15,7 @@
       }]
     }
   }, {
-    "url": "events.csv", // to be deleted 
+    "url": "events.csv",
     "dc:title":"events.csv",
     "dc:description":" One event per line (timestamp x y polarity)",
     "tableSchema":{
@@ -27,7 +27,7 @@
       }]
     }
   }, {
-    "url": "groundtruth.csv",  // to be deleted 
+    "url": "groundtruth.csv",
     "dc:title":"",
     "dc:description":"One ground truth measurements per line (timestamp px py pz qx qy qz qw)",
     "tableSchema":{
@@ -39,7 +39,7 @@
       }]
     }
   }, {
-    "url": "images.csv",  // to be deleted 
+    "url": "images.csv",
     "dc:title":"images.csv",
     "dc:description":"One image reference per line (timestamp filename)",
     "tableSchema":{
@@ -51,7 +51,7 @@
       }]
     }
   }, {
-    "url": "imu.csv",  // to be deleted 
+    "url": "imu.csv",
     "dc:title":"",
     "dc:description":"",
     "tableSchema":{
