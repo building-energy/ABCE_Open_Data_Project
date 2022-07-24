@@ -1,8 +1,8 @@
 {
   "@context": "https://rpg.ifi.uzh.ch/davis_data.html#Reinbacher17iccp",
-  "dc:title":"shapes_rotation	",
+  "dc:title": "shapes_rotation",
   "dc:description":"",
-  "dc:creator":""
+  "dc:creator":"",
   "tables": [{
     "dc:title":"calib.txt",
     "dc:description":"Camera parameters ",
