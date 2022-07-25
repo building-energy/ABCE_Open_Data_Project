@@ -35,7 +35,7 @@ What we want to do is to create a metadata file to contain the necessary informa
       - notes: python library zipfile
 
 
-##Plots
+## Plots
 **Indoor Air Temperature vs Carbon dioxide Concentration**
 
 ![office_iaq_plot](https://user-images.githubusercontent.com/62925977/179420765-280e1e0a-6ded-4230-b66c-6f402cc7b225.png)
