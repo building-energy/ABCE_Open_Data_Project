@@ -138,18 +138,21 @@
         "dc:description":"",
         
          "titles":"az ",
+         "dc:datatype":"integer",
         "dc:description":"",
         
           "titles":"gx ",
+          "dc:datatype":"integer",
         "dc:description":"",
         
           "titles":"gy ",
+          "dc:datatype":"integer",
         "dc:description":"",
         
           "titles":"gz ",
+          "dc:datatype":"integer",
         "dc:description":"",
-        "":"",
-        "":""
+     
       }]
     }
   }]
