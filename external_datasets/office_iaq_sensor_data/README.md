@@ -24,15 +24,6 @@ What we want to do is to create a metadata file to contain the necessary informa
 
 ### First stage
 
-- [ ] write metadata.json (all .txt/.csv in one .json)
-      - convert txt to csv?
-      - write json
-- [ ] code to reuse metadata
-      - reuse metadata.json with dataset
-      - csv validating
-- [ ] upload zipfile of dataset sample. if we can use python to read zip from url, this step can be skiped.
-      - consider about the data file format
-      - notes: python library zipfile
 
 
 ## Plots
