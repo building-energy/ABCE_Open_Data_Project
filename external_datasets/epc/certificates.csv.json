@@ -5,10 +5,12 @@
     "dc:description": "This table describes EPC data and building characteristics for a given selection of properties",
     "dc:creator": "Custom selection of EPCs from https://epc.opendatacommunities.org/domestic/search",
     "tableSchema": {
-      "columns": [{
+      "columns": [
+        {
           "titles": "LMK_KEY",
           "dc:description": "Individual lodgement identifier. Guaranteed to be unique and can be used to identify a certificate in the downloads and the API.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "ADDRESS1",
@@ -32,8 +34,9 @@
         },
         {
           "titles": "BUILDING_REFERENCE_NUMBER",
-          "dc:description": "The official unique identifier for teh property.",
-          "@type": "Column"
+          "dc:description": "The official unique identifier for the property.",
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "CURRENT_ENERGY_RATING",
@@ -48,12 +51,14 @@
         {
           "titles": "CURRENT_ENERGY_EFFICIENCY",
           "dc:description": "Based on cost of energy, i.e. energy required for space heating, water heating and lighting [in kWh/year] multiplied by fuel costs. (£/m²/year where cost is derived from kWh).",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "POTENTIAL_ENERGY_EFFICIENCY",
           "dc:description": "The potential energy efficiency rating of the property.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "PROPERTY_TYPE",
@@ -98,72 +103,86 @@
         {
           "titles": "ENVIRONMENT_IMPACT_CURRENT",
           "dc:description": "The Environmental Impact Rating. A measure of the property's current impact on the environment in terms of carbon dioxide (CO2) emissions. The higher the rating the lower the CO2 emissions. (CO2 emissions in tonnes / year).",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "ENVIRONMENT_IMPACT_POTENTIAL",
           "dc:description": "The potential Environmental Impact Rating. A measure of the property's potential impact on the environment in terms of carbon dioxide (CO2) emissions after improvements have been carried out. The higher the rating the lower the CO2 emissions. (CO2 emissions in tonnes / year).",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "ENERGY_CONSUMPTION_CURRENT",
           "dc:description": "Current estimated total energy consumption for the property in a 12 month period (kWh/m2). Displayed on EPC as the current primary energy use per square metre of floor area.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "ENERGY_CONSUMPTION_POTENTIAL",
           "dc:description": "Estimated potential total energy consumption for the Property in a 12 month period. Value is Kilowatt Hours per Square Metre (kWh/m2).",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "CO2_EMISSIONS_CURRENT",
           "dc:description": "CO2 emissions per year in tonnes/year.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "CO2_EMISS_CURR_PER_FLOOR_AREA",
           "dc:description": "CO2 emissions per square metre floor area per year in kg/m2.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "CO2_EMISSIONS_POTENTIAL",
           "dc:description": "Estimated value in Tonnes per Year of the total CO2 emissions produced by the Property in 12 month period.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "LIGHTING_COST_CURRENT",
           "dc:description": "GBP. Current estimated annual energy costs for lighting the property.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "LIGHTING_COST_POTENTIAL",
           "dc:description": "GBP. Potential estimated annual energy costs for lighting the property after improvements have been made.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "HEATING_COST_CURRENT",
           "dc:description": "GBP. Current estimated annual energy costs for heating the property.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "HEATING_COST_POTENTIAL",
           "dc:description": "GBP. Potential annual energy costs for lighting the property after improvements have been made.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "HOT_WATER_COST_CURRENT",
           "dc:description": "GBP. Current estimated annual energy costs for hot water.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "HOT_WATER_COST_POTENTIAL",
           "dc:description": "GBP. Potential estimated annual energy costs for hot water after improvements have been made.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "TOTAL_FLOOR_AREA",
           "dc:description": "The total useful floor area is the total of all enclosed spaces measured to the internal face of the external walls, i.e. the gross floor area as measured in accordance with the guidance issued from time to time by the Royal Institute of Chartered Surveyors or by a body replacing that institution. (m2).",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "ENERGY_TARIFF",
@@ -198,7 +217,8 @@
         {
           "titles": "MULTI_GLAZE_PROPORTION",
           "dc:description": "The estimated banded range (e.g. 0% - 10%) of the total glazed area of the Property that is multiple glazed.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "GLAZED_TYPE",
@@ -213,27 +233,32 @@
         {
           "titles": "EXTENSION_COUNT",
           "dc:description": "The number of extensions added to the property. Between 0 and 4.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "NUMBER_HABITABLE_ROOMS",
           "dc:description": "Habitable rooms include any living room, sitting room, dining room, bedroom, study and similar; and also a non-separated conservatory. A kitchen/diner having a discrete seating area (with space for a table and four chairs) also counts as a habitable room. A non-separated conservatory adds to the habitable room count if it has an internal quality door between it and the dwelling. Excluded from the room count are any room used solely as a kitchen, utility room, bathroom, cloakroom, en-suite accommodation and similar and any hallway, stairs or landing; and also any room not having a window.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "NUMBER_HEATED_ROOMS",
           "dc:description": "The number of heated rooms in the property if more than half of the habitable rooms are not heated.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "LOW_ENERGY_LIGHTING",
           "dc:description": "The percentage of low energy lighting present in the property as a percentage of the total fixed lights in the property. 0% indicates that no low-energy lighting is present.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "NUMBER_OPEN_FIREPLACES",
           "dc:description": "The number of Open Fireplaces in the Property. An Open Fireplace is a fireplace that still allows air to pass between the inside of the Property and the outside.",
-          "@type": "Column"
+          "@type": "Column",
+          "datatype": "number"
         },
         {
           "titles": "HOTWATER_DESCRIPTION",
@@ -453,8 +478,9 @@
         {
           "titles": "LOW_ENERGY_FIXED_LIGHT_COUNT",
           "dc:description": "The number of low-energy fixed lighting outlets.",
-          "@type": "Column"
-        }
+          "@type": "Column",
+          "datatype": "number"
+        },
         {
           "titles": "UPRN",
           "dc:description": "The UPRN submitted by an assessor or alternatively from the department’s address matching algorithm.",
@@ -462,7 +488,7 @@
         },
         {
           "titles": "UPRN_SOURCE",
-          "dc:description": "Populated with the values "Energy Assessor" or "Address Matched" to show how the UPRN was populated.",
+          "dc:description": "Populated with the values 'Energy Assessor' or 'Address Matched' to show how the UPRN was populated.",
           "@type": "Column"
         }
       ],
