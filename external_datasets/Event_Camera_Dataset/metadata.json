@@ -9,33 +9,43 @@
     "tableSchema":{
       "columns":[{
         "titles":" fx",
+         "dc:datatype":"integer",
         "dc:description":"",
         
-         "titles":"fy"
+         "titles":"fy",
+         "dc:datatype":"integer"
         "dc:description":"",
         
-         "titles":"cx"
+         "titles":"cx",
+         "dc:datatype":"integer"
         "dc:description":"",
         
-         "titles":"cy"
+         "titles":"cy",
+         "dc:datatype":"integer"
         "dc:description":"",
         
-         "titles":"k1"
+         "titles":"k1",
+        "dc:datatype":"integer"
         "dc:description":"",
         
-        "titles":"k1"
+        "titles":"k1",
+         "dc:datatype":"integer"
         "dc:description":"",
         
-        "titles":"k2"
+        "titles":"k2",
+         "dc:datatype":"integer",
         "dc:description":"",
         
-        "titles":"p1"
+        "titles":"p1",
+         "dc:datatype":"integer",
         "dc:description":"",
         
-        "titles":"p2"
+        "titles":"p2",
+         "dc:datatype":"integer",
         "dc:description":"",
         
-         "titles":"k3"
+         "titles":"k3",
+         "dc:datatype":"integer"
         "dc:description":"",
               }]
     }
@@ -46,9 +56,11 @@
     "tableSchema":{
       "columns":[{
           "titles":"timestamp x",
+         "dc:datatype":"integer",
         "dc:description":"",
         
-         "titles":"y polarity"
+         "titles":"y polarity",
+         "dc:datatype":"integer",
         "dc:description":"",
       }]
     }
@@ -58,28 +70,36 @@
     "dc:description":"One ground truth measurements per line (timestamp px py pz qx qy qz qw)",
     "tableSchema":{
       "columns":[{
-        "titles":"timestamp"
+        "titles":"timestamp",
+         "dc:datatype":"integer",
         "dc:description":"",
         
         "titles":"px",
+         "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"py",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"pz",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"qx",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"qy",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"qz",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"qw",
+        "dc:datatype":"integer",
         "dc:description":"",
       }]
     }
@@ -90,9 +110,11 @@
     "tableSchema":{
       "columns":[{
         "titles":"timestamp",
+        "dc:datatype":"integer",
         "dc:description":"",
         
         "titles":"filename",
+        "dc:datatype":"integer",
         "dc:description":"",
       
       }]
@@ -104,12 +126,15 @@
     "tableSchema":{
       "columns":[{
         "titles":"timestamp ",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"ax ",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"ay ",
+        "dc:datatype":"integer",
         "dc:description":"",
         
          "titles":"az ",
