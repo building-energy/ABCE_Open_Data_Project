@@ -35,6 +35,13 @@ What we want to do is to create a metadata file to contain the necessary informa
 
 ## Tasks
 
+## 
+
+The purpose of this dataset is to …. 
+The pictures are taken at a rate of …. e.g.  1 pic per 0.5 second,
+
+
+
 
 ### First stage
 
