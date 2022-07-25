@@ -2,17 +2,42 @@
   "@context": "https://rpg.ifi.uzh.ch/davis_data.html#Reinbacher17iccp",
   "dc:title": "shapes_rotation",
   "dc:description":"",
-  "dc:creator":"",
+  "dc:creator":"to E. Mueggler, H. Rebecq, G. Gallego, T. Delbruck, D. Scaramuzza",
   "tables": [{
     "dc:title":"calib.txt",
     "dc:description":"Camera parameters ",
     "tableSchema":{
       "columns":[{
-        "titles":"",
+        "titles":" fx",
         "dc:description":"",
-        "":"",
-        "":""
-      }]
+        
+         "titles":"fy"
+        "dc:description":"",
+        
+         "titles":"cx"
+        "dc:description":"",
+        
+         "titles":"cy"
+        "dc:description":"",
+        
+         "titles":"k1"
+        "dc:description":"",
+        
+        "titles":"k1"
+        "dc:description":"",
+        
+        "titles":"k2"
+        "dc:description":"",
+        
+        "titles":"p1"
+        "dc:description":"",
+        
+        "titles":"p2"
+        "dc:description":"",
+        
+         "titles":"k3"
+        "dc:description":"",
+              }]
     }
   }, {
     "url": "events.csv",
@@ -20,10 +45,11 @@
     "dc:description":" One event per line (timestamp x y polarity)",
     "tableSchema":{
       "columns":[{
-        "titles":"",
+          "titles":"timestamp x",
         "dc:description":"",
-        "":"",
-        "":""
+        
+         "titles":"y polarity"
+        "dc:description":"",
       }]
     }
   }, {
@@ -32,10 +58,29 @@
     "dc:description":"One ground truth measurements per line (timestamp px py pz qx qy qz qw)",
     "tableSchema":{
       "columns":[{
-        "titles":"",
+        "titles":"timestamp"
         "dc:description":"",
-        "":"",
-        "":""
+        
+        "titles":"px",
+        "dc:description":"",
+        
+         "titles":"py",
+        "dc:description":"",
+        
+         "titles":"pz",
+        "dc:description":"",
+        
+         "titles":"qx",
+        "dc:description":"",
+        
+         "titles":"qy",
+        "dc:description":"",
+        
+         "titles":"qz",
+        "dc:description":"",
+        
+         "titles":"qw",
+        "dc:description":"",
       }]
     }
   }, {
@@ -44,10 +89,12 @@
     "dc:description":"One image reference per line (timestamp filename)",
     "tableSchema":{
       "columns":[{
-        "titles":"",
+        "titles":"timestamp",
         "dc:description":"",
-        "":"",
-        "":""
+        
+        "titles":"filename",
+        "dc:description":"",
+      
       }]
     }
   }, {
@@ -56,7 +103,25 @@
     "dc:description":"",
     "tableSchema":{
       "columns":[{
-        "titles":"",
+        "titles":"timestamp ",
+        "dc:description":"",
+        
+         "titles":"ax ",
+        "dc:description":"",
+        
+         "titles":"ay ",
+        "dc:description":"",
+        
+         "titles":"az ",
+        "dc:description":"",
+        
+          "titles":"gx ",
+        "dc:description":"",
+        
+          "titles":"gy ",
+        "dc:description":"",
+        
+          "titles":"gz ",
         "dc:description":"",
         "":"",
         "":""
