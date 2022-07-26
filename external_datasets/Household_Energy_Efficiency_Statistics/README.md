@@ -15,3 +15,7 @@ The files in this folder are:
   * A file named ['bar_chart_plot.png'](https://github.com/building-energy/ABCE_Open_Data_Project/blob/main/external_datasets/Household_Energy_Efficiency_Statistics/bar_chart_plot.png) which is an example plot created by the analysis in the Jupyter Notebook. As shown below.
 
 ![bar_chart_plot](https://user-images.githubusercontent.com/77445492/180892802-62d9a3ae-ed9b-4b68-a604-40556714b89c.png)
+
+  * A file named ['Title_description_table'](https://github.com/building-energy/ABCE_Open_Data_Project/blob/main/external_datasets/Household_Energy_Efficiency_Statistics/title_description_table.png) which shows the table created by the analysis in the Jupyter Notebook. As shown below.
+  
+  ![title_description_table](https://user-images.githubusercontent.com/77445492/180996240-e82cd377-69c9-4fda-a2ce-4a4ab2dce25b.png)
