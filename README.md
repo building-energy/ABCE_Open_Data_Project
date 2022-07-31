@@ -3,10 +3,10 @@ Data and analysis examples of the ABCE Open Data Project
 
 UNDER DEVELOPMENT
 
-This open data project intends to provide guidance to anyone interested in open research of the format, process in creating and uploadin gopen research data. This section covered examples using internal and external public data in five domain including image, sensor, simulation, interview and qiestionnaire data.
+This open data project intends to provide guidance to interested parties regarding the format, process in creating and uploading open research data in accordance to FAIR principles (Findability, Accessibility, Interoperability, and Reuse of data). This section covered examples using internal and external public data in five domain including image, sensor, simulation, interview and qiestionnaire data.
 
-###Interview data
-For interview data, a research 
+### Interview data
+In this section, examples are created from interview data of a research project investigating the behaviour and income changes of local communities in Africa associated with the ground water measurement and water management strategies under BRAVE Project. All documents are obtained through UK government open resource website. The folder include templates of metadata, transcript in txt format, simple analysis etc. which aim to enhance the presentation of interview data in a more FAIR approach.
 
 ## What's in this GitHub repository?
 
