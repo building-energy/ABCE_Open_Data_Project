@@ -21,10 +21,10 @@ What we want to do is to create a metadata file to contain the necessary informa
 
 ## How did we create the metadata file?
 
-
-### First stage
-
-
+1. The CSV on the Web Working Group has developed standard ways to express useful metadata about CSV files and other kinds of tabular data. 
+2. QUDT.org exists to make the QUDT Ontologies, derived models and vocabularies available to the public.
+3. DCMI is a community of metadata professionals and practitioners that share an open and forward-looking ethos of 'innovative practice', bridging established metadata practices and graph-based solutions for integration across data silos within a Linked Data ecosystem.
+3. Using the details in the CSV on the Web Working Group, QUDT and DCMI the metadata json file was manually created.
 
 ## Plots
 **Indoor Air Temperature vs Carbon dioxide Concentration**
