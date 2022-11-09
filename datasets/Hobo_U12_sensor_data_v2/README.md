@@ -1,10 +1,12 @@
-# Hobo_U12_sensor_data_v1
+# Hobo_U12_sensor_data_v2
 
 ## Context
 
 A data file is downloaded from a sensor. 
 
-Before publishing the data, a new metadata file is created which contains additional information about the data.
+Before publishing the data, the data is processed to a series of new files and a new metadata file is created which contains additional information about the data.
+
+The data is now published as [FAIR data](https://www.go-fair.org/fair-principles/).
 
 ## Background
 
@@ -17,6 +19,10 @@ The approach here could be used for any sensor which records time series measure
 ## Method
 
 1. The data file is downloaded from the sensor ('ABCE_atrium_U12.csv')
+
+
+
+
 2. A new [CSVW metadata object](https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/) file is created ('ABCE_atrium_U12.csv-metadata.json'). 
 3. The final [CSVW dataset](https://www.stevenfirth.com/csv-on-the-web-an-introduction/) is the 'ABCE_atrium_U12.csv' and 'ABCE_atrium_U12.csv-metadata.json' files. These files can now be published as a [CSVW dataset](https://www.stevenfirth.com/csv-on-the-web-an-introduction/) which would provide much more structured information than the CSV file alone.
 

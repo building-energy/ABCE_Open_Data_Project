@@ -1,0 +1,137 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": {
+                    "und": [
+                        "id"
+                    ]
+                },
+                "name": "id",
+                "datatype": "string",
+                "suppressOutput": true
+            },
+            {
+                "titles": {
+                    "und": [
+                        "type"
+                    ]
+                },
+                "name": "type",
+                "datatype": "string",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "sosa:Observation"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "resultTime"
+                    ]
+                },
+                "name": "resultTime",
+                "datatype": "datetime",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "sosa:resultTime"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "usedProcedure"
+                    ]
+                },
+                "name": "usedProcedure",
+                "datatype": "string",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "sosa:usedProdecure",
+                "valueUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{usedProcedure}"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "madeBySensor"
+                    ]
+                },
+                "name": "madeBySensor",
+                "datatype": "string",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "sosa:madeBySensor",
+                "valueUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{madeBySensor}"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "observedProperty"
+                    ]
+                },
+                "name": "observedProperty",
+                "datatype": "string",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "sosa:observedProperty",
+                "valueUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{observedProperty}"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "hasFeatureOfInterest"
+                    ]
+                },
+                "name": "hasFeatureOfInterest",
+                "datatype": "string",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "sosa:hasFeatureOfInterest",
+                "valueUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{hasFeatureOfInterest}"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "hasSimpleResult"
+                    ]
+                },
+                "name": "hasSimpleResult",
+                "datatype": "string",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "sosa:hasSimpleResult"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "hasResult_value"
+                    ]
+                },
+                "name": "hasResult_value",
+                "datatype": "number",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}_Result",
+                "propertyUrl": "http://qudt.org/schema/qudt/value"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "hasResult_unit"
+                    ]
+                },
+                "name": "hasResult_unit",
+                "datatype": "string",
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}_Result",
+                "propertyUrl": "http://qudt.org/schema/qudt/unit",
+                "valueUrl": "http://qudt.org/vocab/unit/{hasResult_unit}"
+            },
+            {
+                "name": "result_virtual_column",
+                "virtual": true,
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}",
+                "propertyUrl": "sosa:hasResult",
+                "valueUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}_Result"
+            },
+            {
+                "name": "result_type_virtual_column",
+                "virtual": true,
+                "aboutUrl": "https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2#{id}_Result",
+                "propertyUrl": "rdf:type",
+                "valueUrl": "sosa:Result"
+            }
+        ]
+    },
+    "url": "observation.csv"
+}
