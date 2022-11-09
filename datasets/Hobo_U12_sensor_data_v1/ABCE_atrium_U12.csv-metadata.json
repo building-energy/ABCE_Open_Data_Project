@@ -135,7 +135,7 @@
             }
         ]
     },
-    "url": "ABCE_atrium_U12_UTF8.csv",
+    "url": "ABCE_atrium_U12.csv",
     "dc:title": "Indoor conditions in the atrium of the Sir Frank Gibb building",
     "dc:description": "Air temperature and Relative humidity data from Hobo U12 sensor placed in the atrium of the Sir Frank Gibb building",
     "dc:location": "Atrium, Sir Frank Gibb building, Loughborough University, LE11 3TU, UK",

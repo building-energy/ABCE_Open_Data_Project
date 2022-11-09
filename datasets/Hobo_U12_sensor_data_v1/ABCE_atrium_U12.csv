@@ -1,5 +1,5 @@
 "Plot Title: 01_10_13 "
-"#","Time, GMT+01:00","Temp, °C()","RH, %()","Intensity, Lux()","Bad Battery()","Host Connected()","Stopped()","End Of File()"
+"#","Time, GMT+01:00","Temp, Â°C()","RH, %()","Intensity, Lux()","Bad Battery()","Host Connected()","Stopped()","End Of File()"
 1,10/02/13 06:00:00 AM,19.865,59.728,11.8,,,,
 2,10/02/13 06:30:00 AM,19.817,59.781,11.8,,,,
 3,10/02/13 07:00:00 AM,19.793,59.747,11.8,,,,
