@@ -1,0 +1,344 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "tables": [{
+    "url": "Survey Data 2009.CSV",
+    "tableSchema": {
+      "columns": [
+        {
+          "name": "id",
+          "datatype": "integer",
+	    "description": "Each answer has a related  response id which is assigned to the specific respondant's response, so that answers for different questions can be tracked between different respondants"
+        },
+        {
+          "name": "weight",
+          "datatype": "integer",
+	    "description": "Each respondent has the unique weight value for the whole survey"
+        },
+        {
+          "name": "year",
+          "datatype": "date",
+	    "description": "This explains the year in which the survey was conducted"
+        },
+        {
+          "name": "sex",
+          "datatype": "string",
+	    "description": "The gender of each respondent"
+        },
+        {
+          "name": "age",
+          "datatype": "integer",
+	    "description": "The respondent's age of the year during which the survey was conducted"
+        },
+        {
+          "name": "age_grp",
+          "datatype": "integer",
+	    "description": "The age group which the respondent belongs to"
+        },
+        {
+          "name": "region",
+          "datatype": "string",
+	    "description": "The region where the respondent comes from"
+        },
+        {
+          "name": "gor",
+          "datatype": "string",
+	    "description": "Respondent's government office region"
+        },
+        {
+          "name": "mastat",
+          "datatype": "string",
+	    "description": "Respondent's marutal status"
+        },
+        {
+          "name": "hushop",
+          "datatype": "string",
+	    "description": "Check whether the respondent is a main shopper"
+        },
+        {
+          "name": "hhsize",
+          "datatype": "integer",
+	    "description": "Number of individuals in househould"
+        },
+        {
+          "name": "Istage",
+          "datatype": "string",
+	    "description": "Respondent's life stage"
+        },
+        {
+          "name": "nkids",
+          "datatype": "string",
+	    "description": "Number of children in the household"
+        },
+        {
+          "name": "parent",
+          "datatype": "string",
+	    "description": "Whether the respond is the parent of children"
+        },
+        {
+          "name": "ch03",
+          "datatype": "string",
+	    "description": "Whether the respond has children between 0-3"
+        },
+        {
+          "name": "ch45",
+          "datatype": "string",
+	    "description": "Whether the respond has children between 4-5"
+        },
+        {
+          "name": "ch69",
+          "datatype": "string",
+	    "description": "Whether the respond has children between 6-9"
+        },
+        {
+          "name": "ch1015",
+          "datatype": "string",
+	    "description": "Whether the respond has children/teenager between 10-15"
+        },
+        {
+          "name": "qual",
+          "datatype": "string",
+	    "description": "The question about the highest degree/education of each respondent"
+        },
+        {
+          "name": "jbstat",
+          "datatype": "string",
+	    "description": "Working status of each respondent"
+        },
+        {
+          "name": "jbrgsc",
+          "datatype": "string",
+	    "description": "Social grade"
+        },
+        {
+          "name": "hoh",
+          "datatype": "string",
+	    "description": "Whether the respondent is the chief income earner"
+        },
+        {
+          "name": "jbstathoh",
+          "datatype": "string",
+	    "description": "working status of chief income earner"
+        },
+        {
+          "name": "fihhyr2",
+          "datatype": "string",
+	    "description": "income (only asked to main shopper or chief income earner)"
+        },
+        {
+          "name": "fihhyr_a",
+          "datatype": "string",
+	    "description": "Midpoints of fihhyr2 from 2008 (see notes column for pre-2008)"
+        },
+        {
+          "name": "dfihhyr; dfihhyr_a; dfihhyrchg; dfihhyrchg_a",
+          "datatype": "string",
+	    "description": "There is no data under these columns. For more information please refer to the questionnaire template"
+        },
+        {
+          "name": "us",
+          "datatype": "string",
+	    "description": "Ask the respondent if the household currently owes any money on the following types of loan or credit agreement (list: usa-usj)"
+        },
+        {
+          "name": "ustot",
+          "datatype": "string",
+	    "description": "Question about how much money in total the respondent or household currently owes on these loans"
+        },
+        {
+          "name": "answer_text",
+          "datatype": "string",
+	    "description": "**Please see previous column descriptions for examples** Each answer column should have a description which provides context for the answer (i.e. 1 is low and 10 is high etc). Also, the .JSON file should have a given datatype relevant to the answer provided (usually text or integer)."
+        },
+        {
+          "name": "ustot_a",
+          "datatype": "string",
+	    "description": "Midpoints of ustot after 2006, sum of individual balances on different types of unsecured in 2004 and 2005"
+        },
+        {
+          "name": "ustoty_a",
+          "datatype": "string",
+	    "description": "Unsecured debt to income ratio"
+        },
+        {
+          "name": "ustotdy_a",
+          "datatype": "string",
+	    "description": "Unsecured debt to disposable income ratio"
+        },
+        {
+          "name": "xpus",
+          "datatype": "string",
+	    "description": "Taking into account of your unsecured debts, how much was your last monthly payment on all of the loans?"
+        },
+        {
+          "name": "xpus_a",
+          "datatype": "string",
+	    "description": "Midpoints of xpus. Please refere to last question for more information"
+        },
+        {
+          "name": "xpusy_a",
+          "datatype": "string",
+	    "description": "last monthly unsecured debt payment to income ratio"
+        },
+        {
+          "name": "xpusdy_a",
+          "datatype": "string",
+	    "description": "last monthly unsecured debt payment to disposable"
+        },
+        {
+          "name": "usn",
+          "datatype": "string",
+	    "description": "Number of unsecured debt instruments held"
+        },
+        {
+          "name": "usa",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: hire purchase"
+        },
+        {
+          "name": "usb",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: personal loan"
+        },
+        {
+          "name": "usc",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: credit card"
+        },    {
+          "name": "usd",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: DSS social fund loan"
+        },    {
+          "name": "ude",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: something else"
+        },
+        {
+          "name": "usg",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: personal loan"
+        },
+        {
+          "name": "ush",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: overdraft"
+        },
+        {
+          "name": "usi",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: student loan"
+        },
+        {
+          "name": "usj",
+          "datatype": "string",
+	    "description": "Unsecured debt instrument: store card"
+        },
+        {
+          "name": "tenure",
+          "datatype": "string",
+	    "description": "Housing tenure group"
+        },
+        {
+          "name": "tenure_grp2",
+          "datatype": "string",
+	    "description": "Housing tenure group"
+        },
+        {
+          "name": "tenure_grp3",
+          "datatype": "string",
+	    "description": "Housing tenure group"
+        },
+        {
+          "name": "hsval",
+          "datatype": "string",
+	    "description": "Midpoints of hsval"
+        },
+        {
+          "name": "hsval_a",
+          "datatype": "string",
+	    "description": "Midpoints of hsval"
+        },
+        {
+          "name": "reshsfall",
+          "datatype": "string",
+	    "description": "Over the past year, the price of an average home has fallen by about 10%. How would your household spending on items such as clothes, leisure and groceries be affected if house prices were to fall by another 10% in the next year. Would you say.."
+        },
+        {
+          "name": "mghave",
+          "datatype": "string",
+	    "description": "Question about if there is a mortgage or loan secured on respondent's home"
+        },
+        {
+          "name": "intmg",
+          "datatype": "string",
+	    "description": "Type of interest rate being paid on the mortage or loan"
+        },
+        {
+          "name": "mg1tot",
+          "datatype": "string",
+	    "description": "Roughly how much is left to pay on your current mortgage(s) and secured loan(s) on your home? (only asked to adults responsible for financial decision making)"
+        },
+        {
+          "name": "mg1tot_a",
+          "datatype": "string",
+	    "description": "Midpoints of mg1tot"
+        },
+        {
+          "name": "mg1toty_a",
+          "datatype": "string",
+	    "description": "Secured debt to income ratio"
+        },
+        {
+          "name": "mg1totdy_a",
+          "datatype": "string",
+	    "description": "Secured debt to disposable income ratio"
+        },
+        {
+          "name": "nequity",
+          "datatype": "integer",
+	    "description": "If you were able to sell your home today, do you think it would be worth more than what you owe on your mortgage and any other secured loans?"
+        },
+        {
+          "name": "xpmg",
+          "datatype": "string",
+	    "description": "How much was your last monthly instalment on the mortgage(s) or loan(s) related to your home? (only asked to adults responsible for financial decision making)"
+        },
+        {
+          "name": "xpmg_a",
+          "datatype": "string",
+	    "description": "Midpoints of xpmg"
+        },
+        {
+          "name": "xpmgy_a",
+          "datatype": "string",
+	    "description": "last monthly secured debt payment to income ratio"
+        },
+        {
+          "name": "xpmgdy_a",
+          "datatype": "string",
+	    "description": "last monthly secured debt payment to disposable"
+        },
+        {
+          "name": "xpmgdy_grp5; fixmg	fixmg09; fixpmg_a; fnxpmg_a; fixpmg09; fnxpmg09; changepmg; changepmg_a; fxuse1; fxuse2; fxuse3; fxuse4; fxuse5; fxuse6; pmguse1; pmguse2; pmguse3; pmguse4; pmguse5; pmguse6; pmguse7; pmguse8",
+          "datatype": "string",
+	    "description": "There is no data under these columns. For more information please refer to the questionnaire template"
+        },
+        {
+          "name": "xphsdf",
+          "datatype": "string",
+	    "description": "In the past twelve months, would you say you have had any difficulties paying for your accomodation?"
+        },
+        {
+          "name": "xphpdf",
+          "datatype": "string",
+	    "description": "To what extent is the repayment of these loans and the interest a financial burden on your household?"
+        },
+        {
+          "name": "billscc; xphdr1; xphdr2; xphdr3; xphdr4; xphdr5; xphdr6; xphdr7; xphdr8; xphdr9; xphdr10; xphdr11; xphdr12; xphdr13; xphdr14; xphdr15; xphdd1; xphdd2; xphdd3; xphdd4; xphdd5; xphdd6; xphdd7; xphdd8; xphdd9; xphdd10; xphdd11; xphdd12; xphdd13; xphdd14; hscntcr1; hscntcr2; hscntcr; hscrchg; saveamount; saveamount_a	saving; saving11; savebcs; savebcs1; savebcs2; savebcs3; savebcs4; savebcs5; savebcs6; savebcs7; savebcs8; savebcs9; savebcs10; savebcs11; savebcs12; savebcs13; desave11bcs1; desave11bcs2; desave11bcs3; desave11bcs4; desave11bcs5; desave11bcs6; save11bcs1; save11bcs2; save11bcs3; save11bcs4; save11bcs5; save11bcs6; save11bcs7; save11bcs8; save11bcs9; save11bcs10; save11bcs11; save11bcs12; spend; nvesttot; nvesttot_a; othassets; debtconc; debtconc_act1; debtconc_act2; debtconc_act3; debtconc_act4; debtconc_act5; debtconc_act6; debtconc_act7; chdebtconc; pubsecty; fisc_conc1; fisc_conc2; fisc_conc3; fisc_conc4; fisc_conc5; fisc_conc6; fisc_conc7; fisc_conc8; fisc_conc9; fisc_act1; fisc_act2; fisc_act3; fisc_act4; fisc_act5; fisc_act6; fisc_act7; fisc_act8; fisc_act9; fisc_impact1; fisc_impact2; fisc_impact3; fisc_impact4; fisc_impact5; fisc_impact6; fisc_impact7; fisc_impact8; fisc11_act1; fisc11_act2; fisc11_act3; fisc11_act4; fisc11_act5; fisc11_act6; fisc11_conc1; fisc11_conc2; fisc11_conc3; fisc11_conc4; fisc11_conc5; fisc11_conc6; fisc11_conc7; fisc11_conc8; fisc_likact1; fisc_likact2; fisc_likact3; fisc_likact4; fisc_likact5; fisc_likact6; forebearsec1; forebearsec2; forebearsec3; forebearsec4; forebearsec5; forebearsec6; forebearsec7; forebearsec8; forebeareffsec; brrise; forebearunsec1; forebearunsec2; forebearunsec3; forebearunsec4; forebearunsec5; forebeareffunsec; uncert; uncertch",
+          "datatype": "string",
+	    "description": "There is no data under these columns"
+        }
+      ],
+      "aboutUrl": "Qestionnaire data in 2009"
+    }
+  }]
+}

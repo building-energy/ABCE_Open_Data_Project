@@ -1,0 +1,48 @@
+{
+  "@context":["http://www.w3.org/ns/csvw",{"@language":"en"}],
+  "url":"dataset.csv",
+  "dc:titles": "Test - image data",
+  "dc:description": "Photos taken arround ABCE, Loughborough University",
+  "dc:creator": "ABCE Open Research Team",
+  "tableSchema":{
+    "columns":[
+      {
+        "titles":"ImageCode",
+        "datatype":"string",
+        "dc:description":"This colums are file names of images and identifiers."
+      },
+      {
+        "titles":"Location",
+        "datatype":"string",
+        "dc:description":"locactions of images."
+      },
+      {
+        "titles":"Publisher",
+        "datatype":"string",
+        "dc:description":"publishers of these images."
+      },
+      {
+        "titles":"Time",
+        "format":"dd/MM/yyyy HH:mm",
+        "datatype":"dateTime",
+        "dc:description":"created time"
+      },
+      {
+        "titles":"ImageType",
+        "datatype":"string",
+        "dc:description":"image type: JPEG, Tiff, png etc"
+      },
+	  {
+        "titles":"Camera",
+        "datatype":"string",
+        "dc:description":"cameras used to capture these images."
+      },
+      {
+        "titles":"Keywords",
+        "datatype":"string",
+        "dc:description":"Images can be searched using these keywords."
+      }
+    ],
+    "aboutUrl":"#{ImageCode}"
+  }
+}

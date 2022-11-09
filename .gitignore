@@ -1,6 +1,7 @@
 
 # additional user ignores for repository
 _figshare/
+_old/
 
 
 # Byte-compiled / optimized / DLL files
