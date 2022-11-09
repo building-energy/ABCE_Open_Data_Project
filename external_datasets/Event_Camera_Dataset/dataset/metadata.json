@@ -1,0 +1,193 @@
+{
+  "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
+  "dc:title": "shapes_rotation",
+  "dc:description":"dataset introduction webpage: https://rpg.ifi.uzh.ch/davis_data.html, download link: https://rpg.ifi.uzh.ch/datasets/davis/shapes_rotation.zip",
+  "dc:datasetcreator":"E. Mueggler, H. Rebecq, G. Gallego, T. Delbruck, D. Scaramuzza",
+  "dc:jsoncreator":"ABCE Open Research Team, Loughborough University",
+  "tables": [{
+    "url": "calib.csv",
+    "dc:title":"calib",
+    "dc:description":"Camera parameters",
+    "tableSchema":{
+      "columns":[
+        {
+        "titles":" fx",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"fy",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"cx",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"cy",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"k1",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"k1",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"k2",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"p1",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"p2",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"k3",
+        "dc:datatype":"float",
+        "dc:description":""
+        }
+      ]
+    }
+  }, {
+    "url": "events.csv",
+    "dc:title":"events",
+    "dc:description":" One event per line (timestamp x y polarity)",
+    "tableSchema":{
+      "columns":[
+        {
+        "titles":"timestamp",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"x",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"y",
+        "dc:datatype":"float",
+        "dc:description":""
+        },
+        {
+        "titles":"polarity",
+        "dc:datatype":"float",
+        "dc:description":""
+        }
+      ],
+      "aboutUrl":"#{timestamp}"
+    }
+  }, {
+    "url": "groundtruth.csv",
+    "dc:title":"groundtruth",
+    "dc:description":"One ground truth measurements per line (timestamp px py pz qx qy qz qw)",
+    "tableSchema":{
+      "columns":[
+        {
+        "titles":"timestamp",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"px",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"py",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"pz",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"qx",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"qy",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"qz",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"qw",
+        "dc:datatype":"float",
+        "dc:description":""
+        }
+      ],
+      "aboutUrl":"#{timestamp}"
+    }
+  }, {
+    "url": "images.csv",
+    "dc:title":"images",
+    "dc:description":"One image reference per line (timestamp filename)",
+    "tableSchema":{
+      "columns":[
+        {
+        "titles":"timestamp",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"filename",
+        "dc:datatype":"float",
+        "dc:description":""
+        }
+      ],
+      "aboutUrl":"#{timestamp}"
+    }
+  }, {
+    "url": "imu.csv",
+    "dc:title":"imu",
+    "dc:description":"",
+    "tableSchema":{
+      "columns":[
+        {
+        "titles":"timestamp",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"ax",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"ay",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"az",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"gx",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"gy",
+        "dc:datatype":"float",
+        "dc:description":""
+        },{
+        "titles":"gz",
+        "dc:datatype":"float",
+        "dc:description":""
+        }
+      ],
+      "aboutUrl":"#{timestamp}"
+    }
+  }]
+}
