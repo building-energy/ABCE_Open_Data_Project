@@ -10,6 +10,8 @@ The files in this directory are:
 
 - 'ABCE_atrium_U12.csv' - the original data file as downloaded from the sensor.
 - 'ABCE_atrium_U12_UTF8.csv' - a revised version of the original data file, saved with a new encoding of UTF-8 (the original file was encoded as ANSI). This is needed to be able to work with the file in the Jupyter Notebooks.
-- 'ABCE_atrium_U12_UTF8.csv-metadata.json' - a CSVW metadata object which provides the metadata for the CSV file.
+- 'ABCE_atrium_U12_UTF8.csv-metadata.json' - a CSVW metadata object which is created to provide additional information for the CSV file.
 - 'analysis_example.ipynb' - a Jupyter Notebook which provides an example of analysing this dataset.
-- 'create_metadata.ipynb' - a Jupyter Notebook which is used to create the 'ABCE_atrium_U12_UTF8.csv-metadata.json' file.
+- 'create_metadata.ipynb' - a Jupyter Notebook which is used to create the 'ABCE_atrium_U12_UTF8.csv-metadata.json' file. Alternatively the metadata file could be created manually.
+
+The final CSVW dataset is the 'ABCE_atrium_U12_UTF8.csv' and 'ABCE_atrium_U12_UTF8.csv-metadata.json' files. These files can now be published as a CSVW dataset which would provide much more structured information than the CSV file alone.
