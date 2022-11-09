@@ -1,0 +1,146 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "rdfs:comment": [
+        {
+            "@value": "\"Plot Title: 01_10_13 \""
+        }
+    ],
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": {
+                    "und": [
+                        "#"
+                    ]
+                },
+                "name": "index",
+                "dc:description": "Integer count of sensor observations, starting at 1.",
+                "datatype": "integer"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "Time, GMT+01:00"
+                    ]
+                },
+                "name": "time",
+                "dc:description": "Date and time of a sensor observation, recorded at time zone Greenwich Mean Time +01:00.",
+                "datatype": "string",
+                "rdfs:comment": "The 'Time, GMT+01:00' column contains values such as '10/02/13 06:00:00 AM'. This cannot be represented by the format options available in CSVW. The format of this column approximately corresponds to 'MM/dd/yy HH:mm:ss' plus a 'AM' or 'PM' flag.",
+                "schema:variableMeasured": "Timestamp"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "Temp, \u00b0C()"
+                    ]
+                },
+                "name": "temp",
+                "dc:description": "Half hourly air temperature (C).",
+                "datatype": "number",
+                "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure": {
+                    "@id": "http://qudt.org/vocab/unit/DEG_C"
+                },
+                "schema:variableMeasured": "Air temperature",
+                "schema:duration": "30M",
+                "schema:unitText": "C"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "RH, %()"
+                    ]
+                },
+                "name": "rh",
+                "dc:description": "Half hourly air relative humidity.",
+                "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure": {
+                    "@id": "http://qudt.org/vocab/unit/PERCENT_RH"
+                },
+                "schema:variableMeasured": "Air relative humidity",
+                "schema:duration": "30M",
+                "schema:unitText": "%",
+                "datatype": "number"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "Intensity, Lux()"
+                    ]
+                },
+                "name": "intensity",
+                "dc:description": "Half hourly light intensity (lux)",
+                "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure": {
+                    "@id": "http://qudt.org/vocab/unit/LUX"
+                },
+                "schema:variableMeasured": "Light intensity",
+                "schema:duration": "30M",
+                "schema:unitText": "Lux",
+                "datatype": "number"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "Bad Battery()"
+                    ]
+                },
+                "name": "bad_battery",
+                "dc:description": "Half hourly sensor internal diagnostic test for bad battery.",
+                "schema:duration": "30M",
+                "datatype": {
+                    "base": "string",
+                    "format": "Logged"
+                }
+            },
+            {
+                "titles": {
+                    "und": [
+                        "Host Connected()"
+                    ]
+                },
+                "name": "host_connected",
+                "dc:description": "Half hourly sensor internal diagnostic test for the connection of a 'host' - i.e. connection of a PC or similar.",
+                "schema:duration": "30M",
+                "datatype": {
+                    "base": "string",
+                    "format": "Logged"
+                }
+            },
+            {
+                "titles": {
+                    "und": [
+                        "Stopped()"
+                    ]
+                },
+                "name": "stopped",
+                "dc:description": "Half hourly sensor internal diagnostic test for the command to stop recording.",
+                "schema:duration": "30M",
+                "datatype": {
+                    "base": "string",
+                    "format": "Logged"
+                }
+            },
+            {
+                "titles": {
+                    "und": [
+                        "End Of File()"
+                    ]
+                },
+                "name": "end_of_file",
+                "dc:description": "Half hourly value indicating the end of the downloaded data file.",
+                "schema:duration": "30M",
+                "datatype": {
+                    "base": "string",
+                    "format": "Logged"
+                }
+            }
+        ]
+    },
+    "url": "ABCE_atrium_U12_UTF8.csv",
+    "dc:title": "Indoor conditions in the atrium of the Sir Frank Gibb building",
+    "dc:description": "Air temperature and Relative humidity data from Hobo U12 sensor placed in the atrium of the Sir Frank Gibb building",
+    "dc:location": "Atrium, Sir Frank Gibb building, Loughborough University, LE11 3TU, UK",
+    "dc:creator": "ABCE Open Research Team",
+    "dialect": {
+        "skipRows": 1
+    }
+}
