@@ -4,7 +4,7 @@
 
 The ABCE Open Data Project is a project studying methods for publishing datasets as [FAIR data](https://www.go-fair.org/). 
 
-It was funded as part of a Change Cultures Research Fund and took place in the School of Architecture, Building and Civil Engineering (ABCE) at Loughborough University in the spring and summer of 2022.
+It was funded as part of a Change Cultures Research Fund and took place in the [School of Architecture, Building and Civil Engineering](https://www.lboro.ac.uk/departments/abce/) (ABCE) at Loughborough University in the spring and summer of 2022.
 
 For more information see this blog post: https://www.stevenfirth.com/the-abce-open-data-project/
 
