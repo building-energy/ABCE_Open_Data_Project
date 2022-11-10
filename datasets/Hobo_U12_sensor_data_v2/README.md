@@ -19,7 +19,7 @@ The approach here could be used for any sensor which records time series measure
 ## Method
 
 1. The data file is downloaded from the sensor ('ABCE_atrium_U12.csv')
-2. This data is processed, restructured and saved as a new CSV file ('observation.csv'). The structure of this CSV file aligns with the [SOSA ontology](https://www.w3.org/TR/vocab-ssn/).
+2. This data is processed, restructured and saved as a new CSV file ('observation.csv'). The structure of this CSV file aligns with the [Observation class in the SOSA ontology](https://www.w3.org/TR/vocab-ssn/#Observations-overview).
 3. A new [CSVW metadata object](https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/) file is created ('observation.csv-metadata.json'). This metadata file describes the 'observation.csv' file and provides sufficient information to convert the data in the 'observation.csv' file into RDF data using the vocabulary of the SOSA ontology.
 4. The final [CSVW dataset](https://www.stevenfirth.com/csv-on-the-web-an-introduction/) is the 'observation.csv' and 'observation.csv-metadata.json' files. These files can now be published as FAIR data which would provide much more structured information than the CSV file alone.
 
