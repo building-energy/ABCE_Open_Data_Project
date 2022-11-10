@@ -1,4 +1,4 @@
-# EnergyPlus_Simulation)data
+# EnergyPlus_Simulation_data
 
 ## Context
 
@@ -22,11 +22,11 @@ The approach here could be used for any simulation data which makes time series 
 
 ## Files in this directory
 
-- 'eplusout.csv' - the original data file as created by the simulation package.
-- 'eplusout.csv-metadata.json' - a [CSVW metadata object](https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/) which is created to provide additional information for the CSV file.
 - 'analysis_example.ipynb' - a Jupyter Notebook which provides an example of analysing this dataset.
 - 'create_metadata.ipynb' - a Jupyter Notebook which is used to create the 'eplusout.csv-metadata.json' file. Alternatively the metadata file could be [created manually](https://www.stevenfirth.com/csv-on-the-web-creating-descriptive-metadata-files/).
-
+- 'eplusout.csv' - the original data file as created by the simulation package.
+- 'eplusout.csv-metadata.json' - a [CSVW metadata object](https://www.w3.org/TR/2015/REC-tabular-metadata-20151217/) which is created to provide additional information for the CSV file.
+- 'time_series_plot.png' - an example plot created by the analysis in the Jupyter Notebook. 
 
 ## Is this FAIR data?
 
@@ -36,19 +36,9 @@ The new CSVW dataset here is an example of well structured data. CSVW can be [co
 
 However this dataset contains much information in the form of text only, such as the type of sensor used and the location where the sensor was placed. This means that the dataset would not meeting [Principle F1](https://www.go-fair.org/fair-principles/f1-meta-data-assigned-globally-unique-persistent-identifiers/) which asks for *"Globally unique and persistent identifiers remove ambiguity in the meaning of your published data by assigning a unique identifier to every element of metadata and every concept/measurement in your dataset."* 
 
-The dataset also could use a dedicated common vocabulary for describing sensor measurements (such as the [SOSA ontology](https://www.w3.org/TR/vocab-ssn/)) which would help to meet [Principle I2](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/) of the FAIR guidelines.
+The dataset also could use a dedicated common vocabulary for describing measurements and predictions (such as the [SOSA ontology](https://www.w3.org/TR/vocab-ssn/)) which would help to meet [Principle I2](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/) of the FAIR guidelines.
 
-An example of this same dataset as FAIR data is given here: https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2
+## How to publish this data?
 
-
-
-
-This folder contains an example of how to analyse the 'Simulation data example' dataset.
-
-The dataset itself can be viewed here: https://figshare.com/s/464885898d0041bfa8fd
-
-The files in this folder are:
-- this README.md file.
-- a Jupyter Notebook named 'examples_of_data_analysis.ipynb' which contains examples, written in Python, of how to analyse the dataset. This notebook can be viewed directly in GitHub or on NBViewer here: https://nbviewer.org/github/building-energy/ABCE_Open_Data_Project/blob/main/internal_test_datasets/simulation/examples_of_data_analysis.ipynb
-- a file named 'time_series_plot.png' which is an example plot created by the analysis in the Jupyter Notebook. 
+An example of how this dataset might be published on the Figshare platform is given here: https://figshare.com/s/464885898d0041bfa8fd
 
