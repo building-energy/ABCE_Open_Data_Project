@@ -38,6 +38,6 @@ However this dataset contains much information in the form of text only, such as
 
 The dataset also could use a dedicated common vocabulary for describing sensor measurements (such as the [SOSA ontology](https://www.w3.org/TR/vocab-ssn/)) which would help to meet [Principle I2](https://www.go-fair.org/fair-principles/i2-metadata-use-vocabularies-follow-fair-principles/) of the FAIR guidelines.
 
-An example of this same dataset as FAIR data is given here: https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/Hobo_U12_sensor_data_v2
+An example of this same dataset as FAIR data is given here: https://github.com/building-energy/ABCE_Open_Data_Project/tree/main/datasets/02_Hobo_U12_sensor_data_v2
 
 
