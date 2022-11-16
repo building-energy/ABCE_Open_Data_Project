@@ -9,6 +9,7 @@
                     ]
                 },
                 "name": "person_id",
+                "rdfs:label": "person_id",
                 "dc:description": "A unique integer identifier for the respondent.",
                 "datatype": "integer"
             },
@@ -19,6 +20,7 @@
                     ]
                 },
                 "name": "first_name",
+                "rdfs:label": "first_name",
                 "propertyUrl": "foaf:firstName",
                 "datatype": "string",
                 "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_firstName for definition"
@@ -30,6 +32,7 @@
                     ]
                 },
                 "name": "last_name",
+                "rdfs:label": "last_name",
                 "propertyUrl": "foaf:family_Name",
                 "datatype": "string",
                 "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_family_name for definition"
@@ -41,11 +44,13 @@
                     ]
                 },
                 "name": "age",
+                "rdfs:label": "age",
                 "propertyUrl": "https://dbpedia.org/ontology/age",
                 "datatype": "integer",
                 "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure": {
                     "@id": "http://qudt.org/vocab/unit/YR"
-                }
+                },
+                "https://schema.org/unitText": "Years"
             },
             {
                 "titles": {
@@ -54,6 +59,7 @@
                     ]
                 },
                 "name": "gender",
+                "rdfs:label": "gender",
                 "propertyUrl": "foaf:gender",
                 "datatype": "string",
                 "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_gender for definition"
@@ -65,6 +71,7 @@
                     ]
                 },
                 "name": "occupation",
+                "rdfs:label": "occupation",
                 "propertyUrl": "https://schema.org/jobTitle.",
                 "datatype": "string"
             }
