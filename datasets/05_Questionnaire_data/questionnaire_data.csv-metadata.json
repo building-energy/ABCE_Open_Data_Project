@@ -1,0 +1,78 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": {
+                    "und": [
+                        "person_id"
+                    ]
+                },
+                "name": "person_id",
+                "dc:description": "A unique integer identifier for the respondent.",
+                "datatype": "integer"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "first name"
+                    ]
+                },
+                "name": "first_name",
+                "propertyUrl": "foaf:firstName",
+                "datatype": "string",
+                "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_firstName for definition"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "last name"
+                    ]
+                },
+                "name": "last_name",
+                "propertyUrl": "foaf:family_Name",
+                "datatype": "string",
+                "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_family_name for definition"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "age"
+                    ]
+                },
+                "name": "age",
+                "propertyUrl": "https://dbpedia.org/ontology/age",
+                "datatype": "integer",
+                "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure": {
+                    "@id": "http://qudt.org/vocab/unit/YR"
+                }
+            },
+            {
+                "titles": {
+                    "und": [
+                        "gender"
+                    ]
+                },
+                "name": "gender",
+                "propertyUrl": "foaf:gender",
+                "datatype": "string",
+                "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_gender for definition"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "occupation"
+                    ]
+                },
+                "name": "occupation",
+                "propertyUrl": "https://schema.org/jobTitle.",
+                "datatype": "string"
+            }
+        ]
+    },
+    "url": "questionnaire_data.csv",
+    "dc:title": "Questionnaire on University staff",
+    "dc:description": "Fictional questionnaire responses for a survey carried out on University staff in June 2022",
+    "dc:location": "Loughborough University, LE11 3TU, UK",
+    "dc:creator": "ABCE Open Research Team"
+}
