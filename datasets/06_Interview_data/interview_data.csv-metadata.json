@@ -1,0 +1,56 @@
+{
+    "@context": "http://www.w3.org/ns/csvw",
+    "tableSchema": {
+        "columns": [
+            {
+                "titles": {
+                    "und": [
+                        "respondent_id"
+                    ]
+                },
+                "name": "respondent_id",
+                "rdfs:label": "respondent_id",
+                "dc:description": "A unique integer identifier for the respondent.",
+                "datatype": "integer"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "question_id"
+                    ]
+                },
+                "name": "question_id",
+                "rdfs:label": "question_id",
+                "dc:description": "A unique integer identifier for the question.",
+                "datatype": "integer"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "question_text"
+                    ]
+                },
+                "name": "question_text",
+                "rdfs:label": "question_text",
+                "dc:description": "The text of the question.",
+                "datatype": "string"
+            },
+            {
+                "titles": {
+                    "und": [
+                        "response_text"
+                    ]
+                },
+                "name": "response_text",
+                "rdfs:label": "response_text",
+                "dc:description": "The text of the response.",
+                "datatype": "string"
+            }
+        ]
+    },
+    "url": "interview_data.csv",
+    "dc:title": "Interview University staff",
+    "dc:description": "Fictional interview responses for a survey carried out on University staff in June 2022",
+    "dc:location": "Loughborough University, LE11 3TU, UK",
+    "dc:creator": "ABCE Open Research Team"
+}
