@@ -3,22 +3,18 @@
     "tableSchema": {
         "columns": [
             {
-                "titles": {
-                    "und": [
-                        "person_id"
-                    ]
-                },
+                "titles": [
+                    "person_id"
+                ],
                 "name": "person_id",
                 "rdfs:label": "person_id",
                 "dc:description": "A unique integer identifier for the respondent.",
                 "datatype": "integer"
             },
             {
-                "titles": {
-                    "und": [
-                        "first name"
-                    ]
-                },
+                "titles": [
+                    "first name"
+                ],
                 "name": "first_name",
                 "rdfs:label": "first_name",
                 "propertyUrl": "foaf:firstName",
@@ -26,11 +22,9 @@
                 "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_firstName for definition"
             },
             {
-                "titles": {
-                    "und": [
-                        "last name"
-                    ]
-                },
+                "titles": [
+                    "last name"
+                ],
                 "name": "last_name",
                 "rdfs:label": "last_name",
                 "propertyUrl": "foaf:family_Name",
@@ -38,11 +32,9 @@
                 "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_family_name for definition"
             },
             {
-                "titles": {
-                    "und": [
-                        "age"
-                    ]
-                },
+                "titles": [
+                    "age"
+                ],
                 "name": "age",
                 "rdfs:label": "age",
                 "propertyUrl": "https://dbpedia.org/ontology/age",
@@ -53,11 +45,9 @@
                 "https://schema.org/unitText": "Years"
             },
             {
-                "titles": {
-                    "und": [
-                        "gender"
-                    ]
-                },
+                "titles": [
+                    "gender"
+                ],
                 "name": "gender",
                 "rdfs:label": "gender",
                 "propertyUrl": "foaf:gender",
@@ -65,11 +55,9 @@
                 "rdfs:comment": "See http://xmlns.com/foaf/0.1/#term_gender for definition"
             },
             {
-                "titles": {
-                    "und": [
-                        "occupation"
-                    ]
-                },
+                "titles": [
+                    "occupation"
+                ],
                 "name": "occupation",
                 "rdfs:label": "occupation",
                 "propertyUrl": "https://schema.org/jobTitle.",
@@ -77,7 +65,7 @@
             }
         ]
     },
-    "url": "questionnaire_data.csv",
+    "url": "file:///C:/Users/cvskf/OneDrive%20-%20Loughborough%20University/_Git/building-energy/ABCE_Open_Data_Project/datasets/05_Questionnaire_data/questionnaire_data.csv",
     "dc:title": "Questionnaire on University staff",
     "dc:description": "Fictional questionnaire responses for a survey carried out on University staff in June 2022",
     "dc:location": "Loughborough University, LE11 3TU, UK",

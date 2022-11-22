@@ -3,44 +3,36 @@
     "tableSchema": {
         "columns": [
             {
-                "titles": {
-                    "und": [
-                        "respondent_id"
-                    ]
-                },
+                "titles": [
+                    "respondent_id"
+                ],
                 "name": "respondent_id",
                 "rdfs:label": "respondent_id",
                 "dc:description": "A unique integer identifier for the respondent.",
                 "datatype": "integer"
             },
             {
-                "titles": {
-                    "und": [
-                        "question_id"
-                    ]
-                },
+                "titles": [
+                    "question_id"
+                ],
                 "name": "question_id",
                 "rdfs:label": "question_id",
                 "dc:description": "A unique integer identifier for the question.",
                 "datatype": "integer"
             },
             {
-                "titles": {
-                    "und": [
-                        "question_text"
-                    ]
-                },
+                "titles": [
+                    "question_text"
+                ],
                 "name": "question_text",
                 "rdfs:label": "question_text",
                 "dc:description": "The text of the question.",
                 "datatype": "string"
             },
             {
-                "titles": {
-                    "und": [
-                        "response_text"
-                    ]
-                },
+                "titles": [
+                    "response_text"
+                ],
                 "name": "response_text",
                 "rdfs:label": "response_text",
                 "dc:description": "The text of the response.",
@@ -48,7 +40,7 @@
             }
         ]
     },
-    "url": "interview_data.csv",
+    "url": "file:///C:/Users/cvskf/OneDrive%20-%20Loughborough%20University/_Git/building-energy/ABCE_Open_Data_Project/datasets/06_Interview_data/interview_data.csv",
     "dc:title": "Interview University staff",
     "dc:description": "Fictional interview responses for a survey carried out on University staff in June 2022",
     "dc:location": "Loughborough University, LE11 3TU, UK",
